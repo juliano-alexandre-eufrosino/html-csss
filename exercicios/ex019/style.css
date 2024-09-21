@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+
+
+
+body{
+background-color: rgba(107, 168, 107, 0.863);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+color: rgba(0, 112, 0, 0.966);
+}
+
+h1#principal {
+text-align: center;
+background-color: green;
+color: rgba(255, 255, 255, 0.781);
+} 
+
+h2{
+color: rgba(2, 158, 2, 0.767);
+}
+
+.basico{
+    color: rgba(2, 139, 2, 0.767);
+}
+.intermediario{
+    color: rgb(209, 209, 0);
+}
+.avancado{
+    color: rgba(158, 12, 2, 0.767);
+}

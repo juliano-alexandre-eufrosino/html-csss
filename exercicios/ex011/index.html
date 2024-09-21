@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Abrir isso em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/Sem título.png" alt="imagem flexivel">
+     
+    </picture>
+
+
+    <h1>Primeira forma</h1>
+    <p> vamos aprender a reproduzir audios: </p>
+<audio src="midia/Creo - Drift (online-audio-converter.com).mp3" controls autoplay></audio>
+
+<h1>hora de entender o que deu errado</h1>
+<p>trabalhando com o source src</p>
+<audio preload="metadata" controls autoplay loop>
+<source src="midia/[DnB] - Hot Date_ _ Chrisson - To The Sun (Feat. Roufaida) [Monstercat Release](M4A_128K) (1).m4a" type="audio/mp4">
+
+<p>caso o navegador não suport o audio <a href="midia/[DnB] - Hot Date_ _ Chrisson - To The Sun (Feat. Roufaida) [Monstercat Release](M4A_128K) (1).m4a" download="hot date" type="audio/mpeg"></a></p>
+
+</audio>
+ 
+</body>
+</html>

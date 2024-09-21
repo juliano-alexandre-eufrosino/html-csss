@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: blue;
+    lighting-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: crimson;
+    background-color: bisque;
+}
+h2{
+    color: darkred;
+}
+p{
+    text-align: justify;
+}
