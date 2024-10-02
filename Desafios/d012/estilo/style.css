@@ -18,9 +18,48 @@ header{
 
 header > h1{
     padding-top: 50px;
+    font-variant: small-caps;
 }
 header > p{
+padding-bottom: 50px;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-align: underline;
+} 
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(70, 68, 68);
+    color: white;
 
 }
 
-/* 5:55 momento que parei do video */
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
