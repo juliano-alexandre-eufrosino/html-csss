@@ -17,7 +17,27 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
-            background-color: aliceblue;
+            position: relative;
+        }
+
+        thead{
+            background-color: rgb(105, 105, 105);
+            color: white;
+        }
+
+        thead > tr > th{
+          position: sticky;
+          top: 0;
+          background-color: rgb(105, 105, 105);
+
+        }
+
+        tbody > tr:nth-child(2n){
+          background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd){
+          background-color: white;
         }
 
         td, th{
@@ -25,10 +45,7 @@
             padding: 10px;
         }
 
-        thead{
-            background-color: rgb(105, 105, 105);
-            color: white;
-        }
+     
 
         td.num{
             text-align: right;
