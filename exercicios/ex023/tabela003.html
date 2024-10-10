@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de tabela</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1{
+        font-family: "Edu AU VIC WA NT Guides";
+        text-align: center;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 150px;
+        margin: auto;
+    }
+
+ 
+
+    td{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        
+    }
+</style>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>  <!-- para horizontal -->
+            
+        </tr>
+        <tr>
+            <td rowspan="3">D</td> <!-- par vertical-->
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+           
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            
+            
+            <td colspan="2">M</td>
+        </tr>
+    </table>
+</body>
+</html>
