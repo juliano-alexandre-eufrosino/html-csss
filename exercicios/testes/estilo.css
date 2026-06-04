@@ -1,0 +1,19 @@
+html, body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+div#img{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(34, 45, 190);   
+    background-image: url(../testes/metal.jpg);
+    background-size: cover;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
